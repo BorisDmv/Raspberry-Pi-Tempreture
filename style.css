@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Lato-Light";
+    src: url("Lato-Light.ttf");
+}
+
+body{
+    background: #e4e4e4;
+    font-family: Lato-Light, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#TempretureContainer{
+    margin: 310px auto;
+    width: 312px;
+}
+
+.titleText{
+    font-size: 1.7em;
+    margin: 0;
+}
+
+.tempText{
+    font-size: 3.5em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.MainContainer{
+    animation: MoveUpDown 3s ease-in-out infinite;
+    height: 638px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+img{
+    margin-left: 80px;
+    position: absolute;
+}
+
+.img{
+    width: 50px;
+    bottom: 334px;
+    left: 53%;
+}
+
+.img2{
+    width: 40px;
+    bottom: 214px;
+    left: 35%;
+}
+
+@-webkit-keyframes MoveUpDown {
+    0%, 100% {
+        bottom: 0;
+      }
+      50% {
+        bottom: 30px;
+      }
+}
